@@ -18,7 +18,7 @@ class Queue {
         bee: new Bee(key, {
           redis: redisConfig,
         }),
-        handle,
+        handle,  
       }
     });
   }
